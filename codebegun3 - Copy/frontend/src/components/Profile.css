@@ -1,0 +1,85 @@
+/* Profile.css */
+/* Include the same CSS from your original code */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://source.unsplash.com/1920x1080/?abstract,technology') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .form-container {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #00bcd4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  label {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    display: block;
+    color: #00bcd4;
+  }
+  
+  input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  input,
+  textarea {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #ccc;
+  }
+  
+  button {
+    background: #00bcd4;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #0097a7;
+  }
+  
+  .form-container input[type='file'] {
+    padding: 5px;
+    background: transparent;
+  }
+  
+  .form-container input[type='url'] {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
